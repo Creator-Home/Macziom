@@ -488,6 +488,7 @@ font-family: 'Lobster', cursive; */
 }
 .right__side h1 {
   font-family: "Lobster", cursive;
+  color: black;
 }
 .right__side h6,
 p {
