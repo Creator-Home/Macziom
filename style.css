@@ -27,6 +27,17 @@ font-family: 'Lobster', cursive; */
   font-size: 1.3rem !important;
   color: #fff !important;
 }
+.nav__links button{
+  background-color: transparent !important;
+  border: none;
+} 
+.button a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: transparent !important;
+  border-radius: 50%;
+  font-family: "Comic Neue", cursive;
+}
 .nav {
   transition: 500ms ease;
   background: transparent;
@@ -38,7 +49,7 @@ font-family: 'Lobster', cursive; */
 .linkcolor.ncol {
   color: #fff !important;
 }
-/* .animated_link4 a:before {
+.animated_link4 a:before {
   position: relative;
   content: "";
   -webkit-transition: ease 0.5s;
@@ -57,7 +68,7 @@ font-family: 'Lobster', cursive; */
   color: #f2f2f2;
   -webkit-transition: ease 0.5s;
   transition: ease 0.5s;
-} */
+}
 
 /***************************** Banner CSS ***************************/
 #slider{
@@ -570,5 +581,117 @@ p {
 }
 
 /************************* Contact Page Style **********************/
+.contact__header h1 {
+  display: block;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: rgb(49, 48, 48);
+  margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact__header h1::before {
+  content: "Start a Career";
+  color: rgba(220, 220, 220, 0.5);
+  font-size: 3rem;
+  display: block;
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+.career__header h1 {
+  display: block;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  color: rgb(49, 48, 48);
+  margin: 0 auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.career__header h1::before {
+  content: "Contact Us";
+  color: rgba(220, 220, 220, 0.5);
+  font-size: 3rem;
+  display: block;
+  font-family: "Lobster", cursive;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+label{
+  font-family: "Comic Neue", cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 
+.career__imgform{
+  margin-top: 3rem;
+}
+.career__form{
+  padding: 1rem;
+}
+.location__details h1{
+  font-size: 1.3rem;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+.location__details h3{
+  font-size: 1rem;
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+  color: #9c9c9c;
+}
+.pin{
+  color: rgb(24, 116, 221);
+  font-size: 2.3rem;
+}
+.icon{
+  margin-bottom: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  
+  .contact__header h1 {
+    display: block;
+    font-family: "Lobster", cursive;
+    font-size: 1.3rem;
+    color: rgb(49, 48, 48);
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .contact__header h1::before {
+    content: "Start a Career";
+    color: rgba(220, 220, 220, 0.5);
+    font-size: 2rem;
+    display: block;
+    font-family: "Lobster", cursive;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  .career__header h1 {
+    display: block;
+    font-family: "Lobster", cursive;
+    font-size: 1.3rem;
+    color: rgb(49, 48, 48);
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .career__header h1::before {
+    content: "Contact Us";
+    color: rgba(220, 220, 220, 0.5);
+    font-size: 2rem;
+    display: block;
+    font-family: "Lobster", cursive;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+}
 /************************* Projects Page Style **********************/
