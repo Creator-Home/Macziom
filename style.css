@@ -394,3 +394,36 @@ font-family: 'Lobster', cursive; */
     color: rgb(255, 255, 255) !important;
     background-color: rgb(14, 9, 9);
   }
+
+
+  /************************* About Page Style **********************/
+  .about__parallax {
+    /* The image used */
+    background-image: url("./images/PB.jpg");
+    /* Set a specific height */
+    height: 25rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .breadcrumb{
+    background-color: transparent !important;
+    margin: 10rem auto;
+    text-align: center;
+  }
+  .breadcrumb-item {
+      color: whitesmoke !important;
+      font-size: 1.5rem;
+  }
+  .breadcrumb-item a{
+      color: rgb(101, 186, 255) !important;
+      font-size: 1.5rem;
+  }
+
+
+  /************************* Contact Page Style **********************/
+
+
+  /************************* Projects Page Style **********************/
